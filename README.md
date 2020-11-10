@@ -40,7 +40,15 @@ If you're familiar with SFDX, you'll have everything you need herein to provisio
 
 ## Modification Instructions
 
-Out of the box, we've set up three query params (param1, param2, param3) that you can work with. To specify a particular parameter name, create a text variable in the Flow that has the name of the attribute (e.g., "userName") and set it as an input value for the "param1name" field. Then create a text variable to store the value that will be retrieved from the URL for that param1 attribute. Set it as the output value for the "param1value" field.
+Out of the box, we've set up three query params (parameter1, parameter2, parameter3) that you can work with. All three are optional. This allows you to use up to three attributes from your external site with no-code configuration.
+
+To specify a particular URL parameter name, create a text variable in the Flow that has the attribute name as its value (e.g., "userName") and set it as an input value for the "parameter1Name" field in the Action config screen. In this example, which is included in the package, QueryParamToFind is set to “userName”.
+
+Then create a text variable to store the value that will be retrieved from the URL for that parameter1 attribute. Set it as the output value for the "parameter1Value" field.
+
+Now, when the Flow is run on a page with a URL that includes ?userName=Frank, the value “Frank” will be populated into the varName variable for use in the Flow.
+
+You can use the same approach for the other two parameters, which allows you to capture up to three URL query parameters with the out-of-the-box Flow and Local Action.
 
 ## Test Version
 I've got a developer org that I use to demo this. You can see the final product [here](https://fc-sfdc-public-assets.s3.us-east-2.amazonaws.com/test.html?userName=Frank).
