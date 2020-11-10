@@ -38,7 +38,7 @@ If you're familiar with SFDX, you'll have everything you need herein to provisio
 8. Visit the deployed HTML page and add `?varName=ABC` to the URL to see it work.
 
 ## Test Version
-I've got a developer org that I use to demo this. The username is `fcaron+embedtest@salesforce.com`. While the Scratch Org is alive, you can test [here](https://jsfiddle.net/wp7g413h/7/).
+I've got a developer org that I use to demo this. You can see the final product [here](https://fc-sfdc-public-assets.s3.us-east-2.amazonaws.com/test.html?varName=Frank).
 
 ## Documentation
 
