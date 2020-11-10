@@ -1,3 +1,8 @@
 <aura:component implements="lightning:availableForFlowActions" access="global">
-    <aura:attribute name="varName" type="String" access="global" />
+    <aura:attribute name="parameter1Name" type="String" access="global" />
+    <aura:attribute name="parameter1Value" type="String" access="global" />
+    <aura:attribute name="parameter2Name" type="String" access="global" />
+    <aura:attribute name="parameter2Value" type="String" access="global" />
+    <aura:attribute name="parameter3Name" type="String" access="global" />
+    <aura:attribute name="parameter3Value" type="String" access="global" />
 </aura:component>

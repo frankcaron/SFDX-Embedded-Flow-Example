@@ -1,3 +1,8 @@
 <design:component>
-	<design:attribute name="varName" label="String"  />
+	<design:attribute name="parameter1Name" />
+    <design:attribute name="parameter1Value" />
+    <design:attribute name="parameter2Name" />
+    <design:attribute name="parameter2Value" />
+    <design:attribute name="parameter3Name" />
+    <design:attribute name="parameter3Value" />
 </design:component>
