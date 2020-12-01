@@ -61,6 +61,7 @@ This is a demonstration of the "Embedded Service" feature of Salesforce, and we'
 * [Creating An Embedded Service Deployment](https://help.salesforce.com/articleView?id=snapins_create_deployment.htm&type=5)
 * [Passing Variables Into A Flow Via Its URL](https://help.salesforce.com/articleView?id=flow_distribute_internal_url_variable.htm&r=https%3A%2F%2Fwww.google.com%2F&type=5)
 * [Customizing the Embedded Flow UI Visually](https://help.salesforce.com/articleView?id=snapins_chat_customize_code.htm&type=5)
+* [UnofficialSF post](https://unofficialsf.com/from-frank-caron-pre-fill-the-fields-of-embedded-flows/)
 
 # Questions?
 
